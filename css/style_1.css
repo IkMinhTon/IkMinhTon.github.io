@@ -27,7 +27,7 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 .hide{display:none}
 
 /* common */
-.img_g{display:block;width:100%}
+.img_g{display:block;width:100%;}
 .btn_black{display:block;width:406px;margin:0 auto;border:1px solid #cb413e;box-sizing:border-box}
 .btn_black .inner_btn{display:block;height:64px;margin:2px;font-weight:bold;line-height:66px;color:#fff;background:#cb413e;text-align:center}
 .btn_black:hover{border-color:#c53835}
@@ -73,7 +73,7 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 .cont_verification .tooltip_print:before,
 .reward_layer .bg_edge,
 .news_body .image .caption:before,
-.news_body .image .caption:after{display:inline-block;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/main/img_black_190320.png) 0 0 no-repeat;text-indent:-9999px;vertical-align:top}
+.news_body .image .caption:after{display:inline-block;background:url(../images/btn_sheet.png) 0 0 no-repeat;text-indent:-9999px;vertical-align:top}
 .img_verification{display:inline-block;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/img_verification_180222.png) 0 0 no-repeat;text-indent:-9999px;vertical-align:top}
 .cover_secret{display:inline-block;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/cover_secret.jpg) 0 0 no-repeat;text-indent:-9999px;vertical-align:top}
 .img_method{display:inline-block;overflow:hidden;font-size:0;line-height:0;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/shop/img_method.png) 0 0 no-repeat;text-indent:-9999px}
@@ -359,7 +359,7 @@ a.anchor {display: block;position: relative;top: -160px;visibility: hidden;}
 /* INTRO (cSub) */
 .main_intro{position:relative;height:762px;overflow:hidden}
 .main_intro.on{top:74px;}
-.intro_black{position:absolute;width:100%;height:762px;background:url("../images/background_header.webp") 0 0 no-repeat; background-size: cover;}
+.intro_black{position:absolute;width:100%;height:762px;background:url("../images/background_header.png") 0 0 no-repeat; background-size: cover;}
 .area_intro{position:absolute;bottom:0;left:0;width:100%;}
 .intro_black .back_intro{position:relative;margin:0 auto;width:100%;height:762px;top:35px;}
 .area_intro .tit_black{display:block;margin:20px auto 0px;width:900px;}
@@ -396,7 +396,7 @@ a.anchor {display: block;position: relative;top: -160px;visibility: hidden;}
 
 
 /* TOP MAIN (cMain) */
-.tit_article{padding-bottom:23px;font-size:40px;color:#181a1f;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/line_title_type1.png) 50% 100% no-repeat;text-align:center}
+.tit_article{padding-bottom:23px;font-size:40px;color:#181a1f;background:url(../images/line_title.png) 50% 100% no-repeat;text-align:center}
 
 /* LATEST NEWS */
 .black_news{position:relative;height:707px;z-index:10}
@@ -413,7 +413,7 @@ a.anchor {display: block;position: relative;top: -160px;visibility: hidden;}
 .black_news .txt_category.event{background:rgba(185,47,44,.56)}
 .black_news .txt_category.newsbanner{background:rgba(25,36,133,.56)}
 .black_news .desc_news{position:absolute;bottom:0;left:0;right:0;height:236px;padding:0 33px;background:#fff}
-.black_news .desc_news:before{position:absolute;top:-10px;left:0;right:0;height:10px;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/deco_top.png) 0 0 no-repeat;content:'';}
+.black_news .desc_news:before{position:absolute;top:-10px;left:0;right:0;height:10px;background:url(../images/deco_top.png) 0 0 no-repeat;content:'';}
 .black_news .desc_news .subject_news{display:block;display:-webkit-box;overflow:hidden;height:88px;padding-top:42px;font-size:32px;line-height:44px;text-overflow:ellipsis;-webkit-box-orient:vertical;-webkit-line-clamp:2;-webkit-transition:all .3s;transition:all .3s}
 .slick-active .link_slide .subject_news, .link_slide:hover .subject_news{color:#cb413e}
 .black_news .desc_news .txt_date, .black_news .desc_news .txt_time{padding-top:23px;font-size:17px;position:absolute}
@@ -451,9 +451,9 @@ a.anchor {display: block;position: relative;top: -160px;visibility: hidden;}
 .black_feature .list_video .img_g{-webkit-transition:all .3s;transition:all .3s}
 .black_feature .list_video .bg_dimmed{position:absolute;top:0;bottom:0;left:0;right:0;background:#000;opacity:.3}
 .black_feature .list_video .txt_video{position:absolute;top:159px;left:0;width:100%;font-size:16px;color:#fff;text-align:center}
-.black_feature .list_video .ico_play{position:absolute;top:95px;left:50%;width:88px;height:88px;margin-left:-44px;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/btn_play.png) 0 0 no-repeat;text-indent:-9999px;-webkit-transition:all .3s;transition:all .3s}
+.black_feature .list_video .ico_play{position:absolute;top:95px;left:50%;width:88px;height:88px;margin-left:-44px;background:url(../images/btn_play.png) 0 0 no-repeat;text-indent:-9999px;-webkit-transition:all .3s;transition:all .3s}
 .black_feature .link_video:hover .img_g{-webkit-transform:scale(1.1);transform:scale(1.1)}
-.black_feature .link_video:hover .ico_play{background-image:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/btn_play_hover.png)}
+.black_feature .link_video:hover .ico_play{background-image:url(../images/btn_play_hover.png)}
 
 /* CLASS */
 .black_class{overflow:hidden;background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;}
@@ -674,31 +674,6 @@ a.anchor {display: block;position: relative;top: -160px;visibility: hidden;}
 .black_screenshot .slick-active .link_slide, .black_screenshot .link_slide:hover{box-shadow:8px 8px 12px rgba(0,0,0,.36);cursor:pointer}
 .black_screenshot .slick-active .box_screenshot, .black_screenshot .link_slide:hover .box_screenshot{opacity:1}
 
-/* WORLD MAP */
-.black_map{position:relative}
-.wrap_territory .img_territory{display:none;position:absolute;cursor:pointer}
-.wrap_territory .on .img_territory{display:block}
-.margoria .img_territory{top:0;left:0;width:21.25%;height:32.52%}
-.kamasylvia .img_territory{bottom:0;left:11.88%;width:18.49%;height:47.56%}
-.calpheon .img_territory{top:12.72%;left:14.17%;width:21.04%;height:69.25%}
-.balenos .img_territory{top:2.43%;left:23.28%;width:30.63%;height:55.2%}
-.serendia .img_territory{bottom:23%;left:32.86%;width:12.08%;height:25.77%}
-.mediah .img_territory{top:23.56%;left:42.23%;width:14.01%;height:52.21%}
-.valencia .img_territory{top:0;right:1.09%;width:47.13%;height:81.08%}
-.drieghan .img_territory{bottom:3.1%;left:26.76%;width:21.3%;height:27.9%}
-
-.wrap_territory .tit_territory{position:absolute;height:36px;margin-top:-18px;text-shadow:0px 0px 10px #fffde0}
-.wrap_territory .on .tit_territory{color:#9b342f;cursor:pointer}
-.margoria .tit_territory{top:14.58%;left:5.9%;width:146px;font-size:22px;letter-spacing:1px}
-.margoria .tit_territory.portratt{top:7%;left:5.48%;width:70px;font-size:11.5px;letter-spacing:0;font-weight:bold}
-.kamasylvia .tit_territory{top:94.56%;left:15.44%;width:160px;font-size:22px;letter-spacing:1px}
-.calpheon .tit_territory{top:75.2%;left:23.26%;font-size:25px;letter-spacing:1px;}
-.balenos .tit_territory{top:49.55%;left:34.7%;font-size:22px;letter-spacing:1px}
-.serendia .tit_territory{top:69.07%;left:36.79%;font-size:21px;letter-spacing:1px}
-.mediah .tit_territory{top:54.61%;left:44.08%;font-size:22px;letter-spacing:1px}
-.valencia .tit_territory{top:45.46%;left:67.76%;font-size:35px;letter-spacing:2px}
-.drieghan .tit_territory{top:90.46%;left:31.76%;font-size:25px;letter-spacing:1px}
-
 .wrap_territory .link_boss,
 .wrap_territory .link_warfare,
 .wrap_territory .link_ocean,
@@ -900,300 +875,6 @@ a.anchor {display: block;position: relative;top: -160px;visibility: hidden;}
 .box_tip .desc_tip{margin-top:9px;font-size:14px;line-height:20px;letter-spacing:0.014em;color:#696969}
 .box_tip .link_close{display:none}
 
-/********** // Copied from buynow.css **********/
-
-.cont_ordernow .bg_cover{height:635px;text-align:center}
-.cont_ordernow .bg_cover .tit_order{display:block;padding:128px 0 1px;font-size:64px}
-.cont_ordernow .bg_cover .txt_order{display:inline-block;position:relative;font-size:30px;vertical-align:top}
-.cont_ordernow .bg_cover .txt_order .img_black, .cont_ordernow .bg_cover .txt_order .img_black{position:absolute;top:50%;width:130px;height:10px;margin-top:-5px;background:0 0 no-repeat;content:''}
-.cont_ordernow .bg_cover .txt_order .line_before{left:-152px}
-.cont_ordernow .bg_cover .txt_order .line_after{right:-152px}
-.cont_ordernow .detail_black{margin:-242px auto 0}
-.info_order{padding-bottom:100px}
-.info_order:after{content:'';display:block;clear:both}
-.info_order .bundle_order{float:left;width:406px;margin-left:31px}
-.info_order .bundle_order:first-child{margin-left:0}
-.info_order .box_orderbox{position:relative;width:406px;height:500px;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_orderbox.jpg) 0 0 no-repeat;text-align:center}
-.info_order .box_orderbox:before{position:absolute;top:235px;left:45px;width:316px;height:13px;background-position:0 -540px;content:''}
-.info_order .ico_badge{position:absolute}
-.info_order .bundle_starter .ico_badge{top:-27px;left:168px;width:71px;height:72px;background-position:0 -430px}
-.info_order .bundle_traveler .ico_badge{top:-32px;left:163px;width:79px;height:82px;background-position:-80px -430px}
-.info_order .bundle_explorer .ico_badge{top:-37px;left:158px;width:91px;height:93px;background-position:-170px -430px}
-.info_order .wrap_tit{position:static;height:174px;padding-top:67px}
-.info_order .tit_package{display:block;font-size:36px;line-height:44px;color:#181a1f;text-transform: uppercase;}
-.info_order .label_order{display:inline-block;width:182px;height:28px;margin-top:17px;font-size:20px;line-height:30px;color:#fff;text-indent:0}
-.info_order .bundle_traveler .label_order{background-position:0 -560px}
-.info_order .bundle_explorer .label_order{background-position:-190px -560px}
-.info_order .bundle_explorer .tit_package{color:#9b342f}
-.info_order .txt_price{overflow:hidden;padding:30px 44px 0;font-weight:bold}
-.info_order .txt_price .now_price{font-size:28px;color:#181a1f}
-.info_order .txt_price .emph_price{font-weight:bold;font-size:58px}
-.box_orderbox .btn_buy{width:318px;margin-top:20px}
-.box_orderbox .btn_buy .inner_btn{font-size:20px}
-.bundle_starter .btn_buy,
-.bundle_traveler .btn_buy,
-.bundle_starter .btn_buy:hover,
-.bundle_traveler .btn_buy:hover{border-color:#906845}
-.bundle_starter .btn_black .inner_btn, .bundle_traveler .btn_black .inner_btn{background-color:#906845}
-.bundle_starter .btn_black:hover .inner_btn, .bundle_traveler .btn_black:hover .inner_btn{color:#fff;background-color:#a77549}
-.info_order .group_content{position:relative;height:754px;padding:0 10px;margin-top:54px}
-.group_content .tit_content, .gift_package .tit_package{display:block;overflow:hidden;position:relative;margin-top:54px;font-size:26px;color:#101010;white-space:nowrap}
-.group_content .tit_content:after, .gift_package .tit_package:after{display:inline-block;width:100%;height:1px;margin-top:19px;background:#000;vertical-align:top;content:''}
-.group_content .tit_content .img_black, .gift_package .tit_package .img_black{width:13px;height:13px;margin:13px -1px 0 24px;background-position:-470px -120px}
-
-.info_order .list_content{padding:20px 0 3px}
-.info_order .list_content li{position:relative;padding:7px 25px 7px 0;font-size:17px;line-height:24px;color:#6f6f6f}
-.info_order .list_content .info_help{position:absolute;top:8px;right:2px;width:18px;height:18px;border:1px solid #6f6f6f;border-radius:25px;font-family:Tahoma, snas-serif;font-size:14px;line-height:18px;color:#6f6f6f;text-align:center;cursor:pointer}
-.info_order .list_content .info_help:hover{border-color:#cb413e;background-color:#cb413e;color:#fff}
-.group_content .btn_buy{position:absolute;bottom:0;left:0;margin:0;font-size:20px}
-.group_content .btn_buy .buy_price{display:inline-block;margin-right:22px}
-.tooltip_order{display:none;position:absolute;z-index:10;top:36px;right:0;margin:0 -10px;padding:26px 30px 29px;border:1px solid #cb413e;line-height:27px;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_tooltip.gif) repeat-y 0 0;box-shadow:6px 7px 10px rgba(0,0,0,0.15)}
-.info_order .list_content .info_help:hover + .tooltip_order{display:block}
-.tooltip_order .emph_tooltip{display:block;padding-bottom:14px;font-size:22px;line-height:30px;color:#262626}
-.tooltip_order .ico_arr{position:absolute;top:-8px;right:13px;font-size:0;line-height:0;pointer-events:none}
-.tooltip_order .ico_arr:before{border:solid transparent;width:0;height:0;border-width: 0 8px 8px 8px;border-bottom-color:#cb413e;content:''}
-.tooltip_order .ico_arr:after{position:absolute;top:1px;left:1px;border:solid transparent;width:0;height:0;border-width:0 7px 7px 7px;border-bottom-color:#fff;content:''}
-
-.gift_package{width:100%;height:332px;background-repeat:no-repeat;background-position:50% 50%;background-size:cover}
-.gift_package .inner_gift{width:1280px;height:282px;margin:0 auto;padding-top:50px}
-.gift_package .tit_package{margin-top:0;position:relative;top:-30px;}
-.gift_package .bar_title{width:1095px}
-.gift_package .desc_gift{float:left;width:810px}
-.gift_package .purchase_gift{float:right;padding-top:21px}
-
-.rel_notice{width:1280px;padding:72px 0 95px;margin:0 auto}
-.rel_notice .list_notice{padding-left:9px}
-.rel_notice .list_notice li{position:relative;padding:8px 0 7px 12px;font-size:18px;color:#626262}
-.rel_notice .list_notice li:before{position:absolute;top:7px;left:0;color:#626262;content:'-'}
-.rel_notice .list_notice a{font-weight:bold;color:#337ab8;text-decoration:underline}
-.tbl_system{width:100%;margin-top:20px;background-color:#f8f9fb;border-collapse:collapse;border-spacing:0;table-layout:fixed}
-.tbl_system th{height:54px;border-left:1px solid #fff;font-size:18px;background-color:#e1e2e4;color:#000}
-.tbl_system th:first-child{border:0 none}
-.tbl_system td{height:50px;border-bottom:1px solid #e1e2e4;border-left:1px solid #e1e2e4;font-size:16px;color:#6f6f6f;text-align:center}
-.tbl_system td:first-child{border-left:0 none}
-.rel_notice .txt_system{padding:37px 0 7px 10px;font-size:16px;color:#6f6f6f}
-
-.purchased.btn_buy, .purchased.btn_buy:hover{border-color:#cebaa2;cursor:default}
-.purchased.btn_buy .inner_btn, .purchased.btn_buy:hover .inner_btn{color:#fff;background-color:#cebaa2}
-.purchased .group_content .btn_buy, .purchased .group_content .btn_buy:hover{border-color:#d0d1d2;cursor:default}
-.purchased .group_content .btn_buy .inner_btn, .purchased .group_content .btn_buy:hover .inner_btn{background-color:#d0d1d2}
-.upgrade .group_content{height:562px}
-.disabled.btn_buy, .disabled.btn_buy:hover{border-color:#cebaa2;cursor:default}
-.disabled.btn_buy .inner_btn, .disabled.btn_buy:hover .inner_btn{color:#fff;background-color:#cebaa2}
-
-/* sale */
-.cont_ordernow .cover_sale .tit_order{padding:77px 0 4px}
-.cont_ordernow .cover_sale .txt_order{font-family:Tahoma, sans-serif;font-size:22px;line-height:24px}
-.cont_ordernow .cover_sale .txt_order .txt_bar{padding:0 13px;font-size:14px;vertical-align:top}
-.detail_sale .ico_badge{font-weight:bold;font-size:16px;line-height:24px;color:#ff615e;text-indent:0}
-.detail_sale .ico_badge .num_sale{display:inline-block;margin-top:20px;font-size:28px}
-.detail_sale .ico_badge .txt_sale{font-size:24px}
-.bundle_explorer .ico_badge{font-size:20px;line-height:26px}
-.bundle_explorer .ico_badge .num_sale{margin-top:23px;font-size:32px}
-.bundle_explorer .ico_badge .txt_sale{font-size:28px}
-.detail_sale .bundle_starter .ico_badge, .detail_sale .bundle_traveler .ico_badge{top:-38px;left:50%;width:100px;height:91px;margin-left:-50px;background-position:-270px -430px}
-.detail_sale .bundle_explorer .ico_badge{top:-47px;left:50%;width:116px;height:101px;margin-left:-58px;background-position:-380px -430px}
-.detail_sale .info_order .wrap_tit{height:174px}
-.cont_ordernow .box_time{display:block;padding-top:40px;text-align:center}
-.box_time .wrap_time{display:inline-block;position:relative;padding:0 5px 0 4px}
-.box_time .wrap_time:before{content:'';position:absolute;top:16px;left:-5px;width:4px;height:4px;background-color:#000}
-.box_time .wrap_time:after{content:'';position:absolute;top:28px;left:-5px;width:4px;height:4px;background-color:#000}
-.box_time .wrap_time:nth-child(2):before, .box_time .wrap_days:before, .box_time .wrap_time:nth-child(2):after, .box_time .wrap_days:after{display:none}
-.box_time .card_time{display:inline-block;width:38px;height:48px;margin-left:1px;font-family:Tahoma, sans-serif;font-size:32px;line-height:48px;color:#fff;background-color:#000;vertical-align:top}
-.box_time .wrap_days .card_time{background-color:#bb3330}
-.detail_sale .info_order .now_price{float:right;padding-right:24px}
-.detail_sale .info_order del{float:left;position:relative;width:152px;margin-top:37px;font-size:24px;color:#26282c;text-decoration:none;text-align:center}
-.detail_sale .info_order del:after{position:absolute;top:12px;left:50%;width:109px;height:7px;margin-left:-50px;background-position:-90px -530px;content:''}
-/* ACCOUNT */
-.cont_account .detail_black{padding:63px 80px 56px;background:#fff}
-.cont_account .bg_cover{background-image:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/cover_account_480.jpg)}
-.cont_account .tit_group{position:relative;padding-left:66px;text-transform: uppercase;}
-.cont_account .tit_group .img_black{position:absolute;top:0;left:0}
-.cont_account .tit_group .ico_account{top:-3px;width:44px;height:50px;background-position:-320px -210px}
-.cont_account .tit_group .ico_newsletter{top:-9px;left:3px;width:44px;height:49px;background-position:-370px -210px}
-.cont_account .tit_group .ico_coupon{width:46px;height:46px;background-position:-320px -270px}
-.cont_account .tit_group .ico_history{top:-3px;left:-1px;width:48px;height:45px;background-position:-370px -270px}
-.cont_account .none_data{padding-top:46px}
-.cont_account .group_detail:last-child{margin-bottom:0}
-.cont_account .txt_bar{padding:0 12px;font-size:13px;line-height:41px;color:#969696;vertical-align:top}
-.cont_account .list_regist dt{width:215px}
-.group_account{padding:17px 0 20px}
-.group_account .list_regist dt, .group_account .list_regist dd{padding:8px 10px;height:40px;line-height:40px}
-.group_account .list_regist dt.lab_comm{padding-top:9px}
-.group_account .btn_regist{margin-right:18px}
-.group_account .btn_tsv{margin-left:21px;}
-.group_account .btn_regist .ico_arr{width:7px;height:12px;margin:15px 0 0 6px;background-position:-490px -180px}
-.group_account .btn_regist:hover .ico_arr{background-position:-490px -200px}
-.cont_account .group_set{overflow:hidden;margin-top:16px}
-.cont_account .group_set.error{margin-top:9px}
-.cont_account .group_set:first-child{margin-top:-8px}
-.cont_account .group_set .txt_error{float:left;width:100%;padding:0 6px}
-.group_account .box_tf{float:left;width:442px}
-.group_account .btn_change{float:left;width:216px;height:56px;margin-left:14px}
-.group_newsletter{padding:24px 4px;font-size:19px;line-height:44px;color:#272727}
-.group_newsletter .btn_regist{width:194px;height:44px;line-height:44px;margin-left:21px}
-.group_coupon .list_regist{padding:50px 0;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/line_tartan.png) 0 100% no-repeat}
-.group_coupon .list_regist dt, .group_coupon .list_regist dd{padding-top:0;padding-bottom:0;line-height:56px}
-.group_coupon .list_regist dt{font-size:24px;color:#010101}
-.group_account .list_password .lab_comm + dd{padding-bottom:15px}
-.group_coupon .list_regist .lab_comm{padding:0}
-.group_coupon .list_regist .group_set{margin:0}
-.group_coupon .box_tf{width:442px}
-.group_coupon .btn_regist{width:216px;height:56px;margin-left:9px;font-size:19px;line-height:56px}
-.group_coupon .txt_error{position:absolute;left:10px;top:56px}
-.cont_account .list_item{overflow:hidden;padding:14px 0;text-align:center}
-.cont_account .list_item li{float:left;width:25%;padding:21px 0}
-.group_coupon .list_item li{cursor:pointer}
-.group_coupon .list_item .off{cursor:default}
-.group_coupon .list_item li:hover .item_thumb:before{position:absolute;top:0;bottom:0;left:0;right:0;border:1px solid #e7e7e7;border-radius:50%;content:''}
-.group_coupon .list_item li:hover .tit_item{font-weight:bold;color:#cb413e}
-.group_coupon .list_item li:hover .ico_item{background-color:#fcfcfc}
-.group_coupon .list_item .off:hover .ico_item{background-color:#f0f0f0}
-.group_coupon .list_item .off:hover .item_thumb:before{content:none}
-.group_coupon .list_item .off:hover .tit_item{font-weight:normal;color:#ccc}
-.cont_account .list_item .txt_condition{position:absolute;top:2px;left:98px;min-width:88px;height:26px;padding:0 6px;font-size:18px;line-height:26px;color:#fff;background:#cb413e}
-.cont_account .list_item .cont_item{padding-top:7px;font-size:16px;line-height:24px;color:#7c7c7c}
-.cont_account .list_item .off .txt_condition{background:#ccc}
-.cont_account .list_item .off .tit_item, .cont_account .list_item .off .cont_item{color:#ccc}
-.cont_account .list_item .txt_bar{padding:0 8px;font-size:10px;line-height:23px;color:#9e9c9c}
-.cont_account .list_tab{overflow:hidden;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/line_tartan.png) 0 100% no-repeat}
-.cont_account .list_tab li{float:left;width:373px}
-.cont_account .list_tab li:nth-child(2){width:374px}
-.cont_account .list_tab .link_tab{display:block;height:64px;font-weight:bold;font-size:24px;line-height:64px;color:#010101;text-align:center}
-.cont_account .list_tab .on .link_tab, .cont_account .list_tab .link_tab:hover{color:#cb413e;background-image:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_tab_hover.png), url(https://akamai-webcdn.kgstatic.net/renewal/static/images/bg_tab_hover.png);background-position:0 0, 0 100%;background-repeat:no-repeat}
-.cont_account .list_tab li:nth-child(2).on .link_tab, .cont_account .list_tab li:nth-child(2) .link_tab:hover{background-position:-373px 0, -373px 100%}
-.cont_account .list_tab li:last-child.on .link_tab, .cont_account .list_tab li:last-child .link_tab:hover{background-position:100% 0, 100% 100%}
-.cont_account .group_detail .btn_more{display:block;width:252px;height:52px;margin:-1px auto 44px;border:1px solid #000;font-weight:bold;line-height:52px;color:#010101;text-align:center}
-.cont_account .group_detail .btn_more .img_black{width:20px;height:11px;margin:20px 0 0 8px;background-position:-380px -180px}
-.group_coupon .txt_time{color:#7c7c7c;}
-.group_history .txt_time{color:#7c7c7c;}
-
-.group_management .management_list {overflow: hidden;background: url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/line_tartan.png) 0 100% no-repeat;}
-.group_management .management_title {float:left;width:373px;display: block;height: 64px;font-weight: bold;font-size: 24px;line-height: 64px;color: #010101; text-align: center;text-transform: uppercase;}
-.group_management .management_desc {float:left;width:373px;margin-top:40px;}
-.group_management .management_desc ul {padding-left: 18px;padding-right: 10px;list-style: disc;height:445px;}
-.group_management .management_desc li {list-style:disc;color:#6F6F6F;font-size:18px;}
-.group_management .management_desc li a {font-weight: bold;color: #337ab8;text-decoration: underline;}
-.group_management .btn_support {text-align:center;text-transform: uppercase;margin-bottom:50px;}
-.group_management .btn_regist {font-size:17px;color:#FFFFFF;padding-left:9px;}
-.group_management .btn_regist:hover {color:#FACD40}
-.group_management .management_desc:nth-child(2) .btn_regist {background-color:#010101;padding-left:14px;}
-.group_management .management_desc:nth-child(2) .btn_regist:hover {color:#FACD40}
-.group_management .management_desc .text_desc {width:320px;color:#6F6F6F;font-size:18px;text-align:center;line-height:24px;margin:0 25px 0px 26px;height:86px;}
-.group_management .ico_arr{width:7px;height:12px;margin:15px 0 0 6px;background-position:-490px -180px}
-.group_management .ico_download{width:18px;height:20px;margin:14px 0 0 15px;background-position:-450px -200px}
-.group_management .btn_regist:hover .ico_arr{background-position:-490px -200px}
-
-/* PAYMENT */
-.cont_payment .bg_cover{background-image:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/cover_payment_480.jpg)}
-.cont_payment .detail_black{margin:-119px auto 117px;padding:56px 80px 53px;background:#fff}
-.cont_payment .detail_black:before, .cont_payment .detail_black:after{position:absolute;left:0;right:0;height:7px;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_zigzag.png) 0 0 repeat-x;content:''}
-.cont_payment .detail_black:before{top:-7px}
-.cont_payment .detail_black:after{bottom:-7px;background-position:0 100%}
-.cont_payment .wrap_tit{top:-97px}
-.cont_payment .group_detail{margin-bottom:81px}
-.cont_payment .group_order{margin-top:14px}
-.cont_payment .tit_result{font-size:42px;line-height:48px;color:#000;text-align:center}
-.cont_payment .desc_result{padding:12px 0 36px;font-size:22px;color:#767676;text-align:center}
-.cont_payment .tbl_comm th, .cont_payment .tbl_comm td{border-left:0 none}
-.cont_payment .tbl_comm td{padding:23px 0;vertical-align:top}
-.cont_payment .tbl_comm .item_thumb{margin-top:7px}
-.cont_payment .tbl_comm .tit_item{padding-top:18px;font-weight:bold;font-size:19px}
-.cont_payment .tbl_comm .list_detail{padding-left:27px;text-align:left}
-.cont_payment .tbl_comm .list_detail li{position:relative;padding-left:10px;font-size:17px}
-.cont_payment .tbl_comm .list_detail li:before{position:absolute;top:12px;left:0;width:2px;height:2px;background:#6f6f6f;content:''}
-.cont_payment .tbl_comm del{display:inline-block;position:relative;text-decoration:none}
-.cont_payment .tbl_comm del:after{position:absolute;top:9px;left:50%;width:73px;height:7px;margin-left:-36px;background-position:-90px -520px;content:''}
-.cont_payment .tbl_comm .txt_price{display:block;padding-top:3px;font-weight:bold;color:#cb413e}
-.group_billing{overflow:visible;padding:17px 0 15px}
-form .group_billing{padding:22px 0}
-.group_billing .list_regist dt{font-weight:normal}
-.group_billing .list_regist .lab_comm{padding-top:11px}
-.group_billing .list_regist .state.off {display:none;}
-.group_billing .list_regist .opt_open .box_opt {overflow-y: scroll;height: 300px;}
-.group_billing .box_tf{width:342px;margin:5px 0 4px}
-.group_billing .tf_addr{width:642px}
-.group_billing .txt_error{padding:0 6px 4px;line-height:25px}
-.group_consent{padding:8px 10px 24px}
-.group_consent .choice_check{margin-top:16px}
-.group_consent .choice_check .lab_comm{height:28px}
-.group_consent .choice_check .lab_comm_two_line {height: 60px !important;}
-.group_result{padding:33px 0 34px;font-size:19px;line-height:32px;color:#6f6f6f;text-align:center}
-.group_result .txt_error{font-weight:bold}
-.group_result a{border-bottom:1px solid #337ab7;font-weight:bold;color:#337ab7}
-.cont_payment .area_widget{margin:90px 0 79px}
-.cont_payment .btn_black, .cont_payment .wrap_btn{margin-top:-27px}
-.cont_payment .wrap_btn .btn_black{margin-top:0}
-.cont_payment .btn_black .inner_btn{height:64px;font-size:20px;line-height:64px}
-.withdrawal_contain {margin-top:20px;}
-.withdrawal {font-weight: bold;}
-
-
-/* DOWNLOAD */
-.cont_download .bg_cover{background-image:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/cover_download_480.jpg)}
-.cont_download .detail_black{padding:63px 80px 56px;background-color:#fff}
-.cont_download .group_detail:last-child{margin-bottom:0}
-.cont_download .btn_download{width:426px}
-.cont_download .btn_download .inner_btn{height:78px;font-size:22px;line-height:78px}
-.cont_download .btn_download .img_black{width:16px;height:13px;margin:-7px 0 0 10px;background-position:-450px -200px;vertical-align:middle}
-.cont_download .btn_download:hover .img_black{background-position:-470px -200px}
-.group_system .tbl_comm th, .group_system .tbl_comm td{border-color:#e1e2e4}
-.group_system .tbl_comm td{height:55px;font-size:17px;color:#6f6f6f}
-
-/* REDEEM */
-.cont_redeem .bg_cover{background-image:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/cover_redeem_480.jpg)}
-.cont_redeem .detail_black{padding:63px 80px 56px;background-color:#fff}
-.group_register{padding:50px 0 49px}
-.group_register .info_register{width:544px;margin:0 auto}
-.group_register .box_tf{width:100%;height:66px;margin:0 auto;box-sizing:border-box}
-.group_register .box_tf .tf_comm{padding:16px 26px 15px;font-size:22px}
-.group_register .box_inline{float:left;height:66px;width:265px;margin:0 0 0 14px}
-.group_register .box_inline .tf_comm{padding:16px 26px 15px;font-size:22px}
-.group_register .group_name, group_coupon .group_name{margin-top:14px;display:none}
-.group_register .group_name .box_inline:first-child{margin:0}
-.group_register .group_name:first-child{margin-top:0}
-.group_register .btn_regist{width:100%;height:66px;margin-top:14px;font-size:22px;line-height:66px;}
-.group_register .ico_error{top:20px;right:20px}
-.group_register .txt_error{display:none;padding:4px 0 4px 7px;font-size:16px}
-.group_register .error .txt_error{display:block}
-
-/* Use Coupon */
-.cont_coupon .bg_cover{background-image:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_coupon_480.jpg)}
-.cont_coupon .detail_black{padding: 10px 0 10px 0;background-color:#fff}
-.cont_coupon .placeholder{color:#ccc}
-
-/* GUEST PASS */
-.cont_guest .bg_cover{background-image:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_guestpass_480.jpg) !important;}
-.cont_guest .detail_black{padding:63px 80px 56px;background-color:#fff}
-.group_reward .wrap_tbl{padding-bottom:4px;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/line_tartan.png) 0 100% no-repeat}
-.group_reward .wrap_tbl .tbl_rewards{margin-bottom:0}
-.group_reward .wrap_tbl + .wrap_tbl{margin-top:52px;padding-top:4px;padding-bottom:0;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/line_tartan.png) 0 0 no-repeat}
-.group_reward .wrap_tbl + .wrap_tbl .tbl_rewards{margin:0 0 4px}
-.cont_guest .tbl_rewards .txt_bar{display:inline-block;padding:0 8px;font-size:10px;line-height:26px;color:#9d9d9d;vertical-align:top}
-.cont_guest .tbl_rewards td .img_black{width:23px;height:24px;margin:4px 0 0 21px;background-position:-420px -200px}
-.cont_guest .tbl_rewards .off .img_black{opacity:.2}
-.cont_guest .tbl_rewards .off td:first-child{color:#ccc}
-.cont_guest .off .disabled{background-color:#808182}
-.cont_guest .group_detail:last-child{margin-bottom:0}
-.cont_guest .group_detail:has(div.group_detail){margin-bottom:52px}
-.cont_guest .btn_black{width:444px}
-
-/* GIFT PACKAGE */
-.cont_giftpackage .bg_cover{background-image:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_giftpackage_480.jpg)}
-.cont_giftpackage .detail_black{padding:63px 80px 56px;background:#fff}
-.cont_giftpackage .group_detail:last-child{margin-bottom:0}
-.cont_giftpackage .btn_black{width:444px}
-.cont_giftpackage .btn_black .inner_btn{font-size:20px}
-.cont_giftpackage .desc_gift{padding-left:11px}
-.cont_giftpackage .tit_gift{padding-top:27px;line-height:30px}
-.cont_giftpackage .list_gift li{line-height:30px}
-.cont_giftpackage .purchase_gift{height:262px;margin:30px 0 42px;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_introduction.jpg) 0 0 no-repeat;text-align:center}
-.cont_giftpackage .box_gift{display:inline-block;margin:44px 0 0 0;padding:0 12px 53px 0}
-.cont_giftpackage .box_gift .item_gift{padding:0 3px}
-.cont_giftpackage .box_gift .txt_or{padding:0 18px}
-.cont_giftpackage .box_gift .ico_plus{margin-right:24px;margin-left:12px}
-.cont_giftpackage .txt_ellipsis{padding:0 10px}
-
 /* INFO */
 .cont_info #mArticle{position:relative}
 .cont_info .bg_cover{position:absolute;left:0;right:0;bottom:0;height:990px;background-image:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_info.png);background-position:50% 100%}
@@ -1218,207 +899,6 @@ form .group_billing{padding:22px 0}
 .cont_error .box_error{width:720px;margin:28px auto 0;padding:23px 0 27px;border-top:1px solid #1e1f21;border-bottom:1px solid #1e1f21;font-size:19px;line-height:40px;color:#5e6972;text-align:center}
 .cont_error .box_error a{color:#337ab7;text-decoration:underline}
 .cont_error .tit_error + .box_error{margin-top:22px}
-
-/* LOGIN, CREATE ACCOUNT, FORGET PASSWORD */
-.cont_login .bg_cover{height:354px;background-image:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_login.jpg)}
-.cont_login .detail_black{width:500px;min-height:572px;margin:0 auto;padding-bottom:126px}
-.cont_login .tit_detail{width:1280px;margin:0 -390px;padding:80px 0 2px;color:#181a1f;text-align:center;white-space:nowrap}
-.cont_login .tit_detail:after{content:none}
-.cont_login .desc_login{width:1280px;margin:0 -390px;padding-top:12px;font-size:20px;line-height:30px;color:#747474;text-align:center;white-space:nowrap}
-.cont_login .desc_login a{font-weight:bold;color:#347ab8}
-.cont_login .form_login{padding-top:43px}
-.cont_login .form_create{padding-top:53px}
-.cont_login .form_social{padding-bottom:24px}
-.cont_login .group_set{margin-top:16px}
-.cont_login .group_set.error + .group_set{margin-top:9px}
-.cont_login .group_set:first-child{margin-top:0}
-.cont_login .group_birth{margin-top:8px}
-.form_login .group_set .txt_error, .form_create .group_set .txt_error{padding:0 6px}
-.cont_login .box_tf{width:498px;height:64px}
-.cont_login .box_tf .tf_comm{padding:18px 54px 18px 58px;color:#5b5c5d;background:none}
-.cont_login .box_tf label.img_black{position:absolute}
-.cont_login .box_tf label.ico_email{top:26px;left:25px;width:17px;height:13px;background-position:-480px -250px}
-.cont_login .box_tf label.ico_password{top:23px;left:26px;width:15px;height:18px;background-position:-480px -270px}
-.cont_login .box_tf .ico_error{top:20px;right:20px}
-.cont_login .choice_check{margin:36px 0 42px}
-.cont_login .choice_check .lab_comm{padding-left:42px;font-size:17px;color:#5b5c5d}
-.cont_login .choice_check .lab_comm a{text-decoration:underline}
-.cont_login .error + .choice_check{margin-top:29px}
-.cont_login .agree_create .group_set{margin:13px 0 0 0}
-/* .cont_login .error .lab_comm{border:1px solid #c72b1e} 2018-02-16 체크박스 오류border 제거 by Ria Yu */
-.cont_login .btn_black{width:100%;margin-top:24px}
-.cont_login .btn_black .inner_btn{height:60px;line-height:62px;font-size:20px}
-.cont_login .error + .btn_black{margin-top:21px}
-.cont_login .desc_login + .btn_black{margin-top:53px}
-.cont_login .rel_login{overflow:hidden;padding-top:26px}
-.cont_login .rel_login li{float:left;position:relative;width:50%;box-sizing:border-box}
-.cont_login .rel_login li:first-child{padding-right:30px;text-align:right}
-.cont_login .rel_login li:last-child{padding-left:30px}
-.cont_login .rel_login .link_rel{display:inline-block;font-size:17px;color:#3a3a3a;vertical-align:top}
-.cont_login .rel_login li:before{position:absolute;top:7px;left:0;width:1px;height:12px;background:#6c6c6c;content:''}
-.cont_login .rel_login li:first-child:before{content:none}
-.cont_login .social_account{padding:70px 0 24px}
-.cont_login .txt_social{display:block;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/line_login.png) 0 50% no-repeat;text-align:center}
-.cont_login .txt_social .inner_txt{display:inline-block;padding:0 12px;font-weight:bold;font-size:17px;background:#f2f4f7;vertical-align:top}
-.btn_facebook{border-color:#3f64c6}
-.cont_login .btn_facebook{margin-top:41px}
-.btn_facebook:hover{border-color:#375cbe}
-.btn_facebook .inner_btn{position:relative;background:#3f64c6}
-.btn_facebook:hover .inner_btn{background:#375cbe;color:#fff}
-.btn_facebook .inner_btn:after{position:absolute;top:0;left:60px;width:1px;height:60px;background:#2a4ca4;content:''}
-.btn_facebook .ico_facebook{position:absolute;top:21px;left:25px;width:10px;height:18px;background-position:-450px -240px}
-.btn_facebook .ico_connect{position:absolute;top:19px;right:18px;width:23px;height:23px;background-position:-420px -260px}
-.btn_facebook:hover .ico_connect{background-position:-450px -260px}
-.cont_login .rel_check{overflow:hidden;margin-bottom:-3px;padding-top:50px}
-.cont_login .txt_check{display:block;margin-bottom:-3px;padding-top:50px;font-size:17px;color:#3a3a3a}
-.cont_login .txt_check a{font-weight:bold;color:#1f1f1f;text-decoration:underline}
-.cont_login .rel_check .txt_check{float:left;padding-top:0}
-.cont_login .link_faq{float:right;font-weight:bold;font-size:17px;color:#1f1f1f}
-.cont_login .link_faq .txt_question{display:inline-block;width:13px;height:13px;margin:5px 8px 0 0;border:1px solid #1f1f1f;border-radius:50%;font-size:12px;line-height:15px;font-family:arial, sans-serif;text-align:center;vertical-align:top}
-.cont_login .tit_login{display:block;padding:31px 4px 0 4px;color:#3a3a3a}
-.cont_login .error + .tit_login{padding-top:24px}
-.group_birth:after{display:block;clear:both;content:''}
-.group_birth .opt_comm{float:left;width:154px;height:64px;margin:0 0 0 16px;background:none}
-.group_birth .opt_comm:first-child{margin:0}
-.group_birth .opt_comm .link_selected{height:64px;padding-right:50px;line-height:64px;color:#b2b1b1}
-.group_birth .opt_comm .link_selected:after{content:none}
-.group_birth .opt_comm .link_selected.selected{font-size:19px;font-family:tahoma, sans-serif;color:#5b5c5d}
-.group_birth .opt_comm .link_selected .ico_arr{top:27px;right:21px}
-.group_birth .opt_comm .link_selected .ico_error{top:20px}
-.group_birth .opt_comm .box_opt{overflow-y:auto;top:64px;height:384px}
-.group_birth .opt_comm .box_opt .link_option{font-size:16px;font-family:tahoma, sans-serif;color:#5b5c5d;background:#f7f7f7}
-.group_birth .box_opt .on .link_option, .group_birth .box_opt .link_option:hover{background:#f0f0f0}
-.agree_create{padding-top:23px}
-.agree_create .choice_check{margin:13px 0 0 0}
-.agree_create .choice_check .lab_comm{padding-top:3px;font-size:16px;line-height:24px}
-.box_captcha{overflow:hidden;margin-top:46px}
-.form_create .btn_black{margin-top:46px}
-.help_regist{padding:33px 0 34px}
-.cont_login .tit_help{display:block;padding-bottom:25px;font-size:22px;color:#585858;text-align:center}
-.cont_login .btn_help{margin-top:16px}
-.cont_login .btn_help .inner_btn{border:1px solid #cb413e;color:#cb413e;background:none}
-.cont_login .tit_reason{display:block;padding-top:10px;font-weight:normal;font-size:22px;color:#585858;margin:0 -390px;text-align:center}
-.cont_login .list_reason{padding-top:38px}
-.cont_login .list_reason li{position:relative;margin-top:12px;padding-left:25px;font-size:19px;color:#747474;white-space:nowrap}
-.cont_login .list_reason li:first-child{margin-top:0}
-.cont_login .list_reason li:before{position:absolute;top:10px;left:2px;width:13px;height:9px;background-position:-480px -240px;content:''}
-.cont_login .list_reason a{font-weight:bold;color:#347ab5;text-decoration:underline}
-.cont_login .list_reason + .btn_black{margin-top:60px}
-.cont_login .btn_download{margin-top:16px}
-.cont_login .btn_reset{margin-top:44px}
-.cont_login .error + .btn_reset{margin-top:37px}
-.cont_login .desc_login .link_login{display:inline-block;margin-bottom:12px;border-bottom:1px solid #1f1f1f;line-height:23px;color:#1f1f1f;vertical-align:top}
-.cont_login .link_login .img_black{width:6px;height:12px;margin:7px 0 0 4px;background-position:-470px -240px}
-
-/* KAKAOCASH */
-.cont_kakaocash .bg_cover{height:530px;text-align:center}
-.cont_kakaocash .bg_cover .tit_order{display:block;padding-top:94px;font-size:64px}
-.cont_kakaocash .bg_cover .txt_order{display:inline-block;position:relative;margin-top:12px;font-size:22px;line-height:30px;vertical-align:top}
-.cont_kakaocash .bg_cover .txt_order .img_black, .cont_kakaocash .bg_cover .txt_order .img_black{position:absolute;top:50%;width:130px;height:10px;margin-top:-5px;background:0 0 no-repeat;content:''}
-.cont_kakaocash .bg_cover .txt_order .line_before{left:-152px}
-.cont_kakaocash .bg_cover .txt_order .line_after{right:-152px}
-.cont_kakaocash .detail_black{margin:-158px auto 0}
-.cont_kakaocash .info_order{overflow:hidden;padding-bottom:110px}
-.cont_kakaocash .info_order li{float:left;margin-left:20px}
-.cont_kakaocash .info_order li:first-child{margin-left:0}
-.cont_kakaocash .box_orderbox{width:240px;height:400px}
-.cont_kakaocash .info_order .box_orderbox:before{top:151px;left:22px;width:196px;background-position:0 -590px}
-.cont_kakaocash .info_order .wrap_tit{height:108px;padding-top:49px}
-.cont_kakaocash .info_order .tit_package{font-size:28px;line-height:32px}
-.cont_kakaocash .info_order .btn_black{position:absolute;bottom:32px;left:0;right:0;width:198px;border-color:#906845}
-.cont_kakaocash .info_order .inner_btn{height:54px;line-height:54px;color:#fff;background:#906845}
-.cont_kakaocash .info_order .btn_black:hover{border-color:#a77549}
-.cont_kakaocash .info_order .btn_black:hover .inner_btn{background:#a77549}
-.cont_kakaocash .off .btn_black, .cont_kakaocash .off .btn_black:hover{border-color:#cebaa2;cursor:default}
-.cont_kakaocash .off .inner_btn, .cont_kakaocash .off .btn_black:hover .inner_btn{background:#cebaa2}
-.cont_kakaocash .info_order .txt_price{padding:0 13px 0 0}
-.cont_kakaocash .info_order img{margin-top:3px}
-.cont_kakaocash .info_order li:first-child img{margin-top:0}
-.cont_kakaocash .info_order li:nth-child(4) img{margin-top:2px}
-.cont_kakaocash .info_order li:last-child img{margin-top:5px}
-.cont_verification .bg_cover{background-image:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_verification.jpg)}
-.cont_verification .detail_black{padding:63px 80px 56px;background:#fff}
-.cont_verification .group_faq{margin-bottom:0}
-.cont_verification .btn_black{width:314px;font-size:20px}
-.step_verification{overflow:hidden;width:1080px;margin:0 auto;padding:39px 0 43px}
-.step_verification li{float:left;position:relative;width:360px;font-size:17px;color:#575757;text-align:center}
-.step_verification li:after{position:absolute;top:58px;right:-21px;width:43px;height:84px;background-position:-630px 0;content:''}
-.step_verification li:last-child:after{content:none}
-.step_verification .img_verification{display:block;width:200px;height:200px;margin:0 auto 21px}
-.step_verification .img_step2{background-position:-210px 0}
-.step_verification .img_step3{background-position:-420px 0}
-.activate_verification{padding:37px 0 49px;border-top:1px solid #eee}
-.activate_verification .desc_activate{font-size:20px;text-align:center}
-.activate_verification .btn_black{width:484px;margin-top:12px}
-.cont_verification .list_faq{margin:4px 0}
-.cont_verification .list_faq li{border-bottom:1px solid #eee}
-.cont_verification .link_faq{display:block;position:relative;padding:15px 40px 16px 25px;color:#1f1f1f}
-.cont_verification .link_faq .ico_arr{position:absolute;top:50%;right:23px;width:10px;height:20px;margin-top:-10px;background-position:-450px -290px}
-.cont_verification .link_faq:before{position:absolute;top:27px;left:8px;width:3px;height:3px;border-radius:3px;background:#1f1f1f;content:''}
-.cont_verification .list_faq .cont_faq{display:none;padding:13px 25px 23px;border-top:1px solid #e0e0e0;font-size:16px;line-height:24px;color:#575757;background:#f9f9f9}
-.cont_verification .list_faq li:hover, .cont_verification .on{background:#f0f0f0}
-.cont_verification .on .link_faq .ico_arr{right:19px;width:20px;height:10px;margin-top:-5px;background-position:-380px -180px}
-.cont_verification .on .cont_faq{display:block}
-.group_process{margin-bottom:52px}
-.group_process .desc_otp{padding-top:35px;font-size:20px;line-height:30px;color:#575757;text-align:center}
-.group_process .desc_otp:first-child{padding-top:40px}
-.group_process .emph_otp{display:block;font-weight:bold;font-size:32px;line-height:60px;color:#000}
-.group_process .ico_otp{display:block;width:138px;height:138px;margin:30px auto 0;background-position:-240px -720px}
-.group_process .wrap_download_btn{padding:40px 0 55px;font-size:0;line-height:0;text-align:center}
-.wrap_download_btn .img_verification{width:199px;height:64px;margin:0 20px}
-.wrap_download_btn .link_appstore{background-position:-390px -720px}
-.wrap_download_btn .link_playstore{background-position:-390px -790px}
-.group_process .step_verification{width:auto;padding:54px 50px 43px}
-.group_process .step_verification li{width:160px;margin-left:126px;font-size:17px;line-height:24px}
-.group_process .step_verification li:first-child{margin-left:0}
-.group_process .step_verification li:after{top:38px;right:-84px}
-.group_process .step_verification li:last-child:after{content:none}
-.group_process .step_verification em{display:block;margin-bottom:11px;font-size:20px}
-.step_verification li.complete:after{background-position:-680px 0}
-.step_verification li.ing, .step_verification li.ing em{font-weight:bold;color:#d05451}
-.step_verification li.complete{color:#126f1c}
-.group_process .step_verification .img_verification{width:160px;height:160px;margin-bottom:27px}
-.group_process .step_verification .img_step1{background-position:0 -210px}
-.group_process .step_verification .img_step2{background-position:-170px -210px}
-.group_process .step_verification .img_step3{background-position:-340px -210px}
-.group_process .step_verification .img_step4{background-position:-510px -210px}
-.step_verification .ing .img_step1{background-position:0 -210px}
-.step_verification .ing .img_step2{background-position:-170px -380px}
-.step_verification .ing .img_step3{background-position:-340px -380px}
-.step_verification .ing .img_step4{background-position:-510px -380px}
-.step_verification .complete .img_step1{background-position:0 -380px}
-.step_verification .complete .img_step2{background-position:-170px -550px}
-.step_verification .complete .img_step3{background-position:-340px -550px}
-.expire_verfication{position:relative;width:661px;margin:2px auto 54px;padding:25px 20px 24px 66px;border:1px solid #cb413e;font-size:17px;line-height:27px;color:#cb413e;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_tooltip.gif) 0 0 repeat;box-shadow:6px 6px 7px 0 rgba(0,0,0,.1)}
-.expire_verfication .img_black{position:absolute;top:26px;left:29px;width:24px;height:24px;background-position:-450px -150px}
-.cont_verification .detail_process{border-top:1px solid #eee;font-size:17px;line-height:30px;color:#575757;}
-.detail_process .desc_process{padding-top:37px;text-align:center}
-.regist_verification{position:relative;width:313px;padding:51px 0 79px 518px}
-.regist_verification .img_regist{position:absolute;top:35px;left:291px}
-.regist_verification .code_regist{position:relative;width:420px;height:58px;margin-top:18px;padding:0 24px;border:1px solid #ccc;font-size:20px;line-height:58px;font-family:tahoma, sans-serif;color:#337bb6;letter-spacing:1px}
-.regist_verification .code_regist .img_code{position:absolute;top:-1px;left:-1px;width:470px;height:60px;}
-.cont_verification .wrap_btn .btn_black{width:214px}
-.cont_verification .wrap_btn .btn_print{display:inline-block;position:relative;vertical-align:top}
-.cont_verification .wrap_btn .txt_tooltip{display:inline-block;width:18px;height:18px;margin:22px 0 0 7px;border:1px solid #fff;border-radius:50%;font-weight:normal;font-size:14px;line-height:18px;font-family:tahoma, sans-serif;vertical-align:top}
-.cont_verification .tooltip_print{display:none;position:absolute;top:62px;left:12px;width:626px;padding:26px 31px 24px;border:1px solid #b94c45;font-size:17px;line-height:27px;color:#6f6f6f;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_tooltip.gif) 0 0 repeat;text-align:left;box-shadow:6px 6px 7px 0 rgba(0,0,0,.15)}
-.cont_verification .tooltip_print:before{position:absolute;top:-9px;left:125px;width:16px;height:9px;background-position:-450px -310px;content:''}/* 2018-02-20 수정 */
-.cont_verification .tooltip_print:hover{display:block}
-.cont_verification .btn_print:hover .txt_tooltip{background:#fff;border-color:#fff;color:#bcbdbe}
-.cont_verification .btn_print .btn_black:hover + .tooltip_print{display:block}
-.detail_step3 .img_regist{top:60px;left:236px;width:233px;height:272px;background-position:0 -720px}
-.detail_step3 .regist_verification{padding:118px 0 106px 518px}
-.detail_step3 .group_set{position:relative;padding-top:18px}
-.detail_step3 .box_tf{width:311px;height:58px}
-.detail_step3 .tf_comm{padding:15px 24px}
-.detail_step3 .group_set .txt_error{position:absolute;left:0;bottom:-33px}
-.detail_step4{border-top:1px solid #eee;text-align:center}
-.detail_step4 .desc_step{padding-top:36px;font-size:17px;line-height:30px}
-.detail_step4 .desc_step em{font-weight:bold;color:#d05451}
-.detail_step4 .emph_step{display:block;width:712px;height:58px;margin:18px auto 0;border:1px solid #cb413e;font-weight:bold;font-size:20px;line-height:58px;color:#d05451;background:#f9f9f9}
-.detail_step4 .list_code{overflow:hidden;width:735px;margin:0 auto;padding:39px 0 43px}
-.detail_step4 .list_code li{float:left;margin:11px;border:1px solid #ccc;width:221px;height:58px;font-size:17px;line-height:58px;font-family:tahoma, sans-serif;text-align:left}
-.detail_step4 .list_code strong{display:inline-block;width:58px;margin-right:20px;border-right:1px solid #ccc;font-size:20px;font-family:'Marcellus', serif;background:#f0f0f0;text-align:center;vertical-align:top}
-
 
 /* FOLLOW US */
 .black_follow{height:150px;background:#292929;text-align:center}
@@ -1739,49 +1219,6 @@ form .group_billing{padding:22px 0}
 a.pp_hiperlink {text-decoration: underline;}
 
 
-/* PAYMENT LIST */
-.group_detail.group_billing {padding:14px 0 32px;}
-.group_billing .list_view {display:table;width:100%;table-layout:fixed;margin-bottom:42px;}
-.group_billing .list_view .lab_comm{display:inline-block;}
-.group_billing .list_view:first-child {margin-top:32px;}
-.group_billing .list_view:last-child  {margin-bottom:32px;}
-.group_billing .list_view dt{font-weight:bold;font-size:19px;color:#272727;line-height:20px;width:246px;display:table-cell;padding-left:10px;}
-.group_billing .list_view dd{display:table-cell;position:relative;color:#6f6f6f;font-size:19px;line-height:20px;}
-.account_delete {margin:-20px 0 52px 0;}
-.account_delete .account_delete_desc {font-size:17px;color:#010101;}
-.account_delete .account_delete_desc a {font-size:17px;color:#3379B5;padding-left:10px;cursor:pointer;text-decoration:underline;}
-.group_billing.list_empty {height:450px;}
-.group_billing.list_empty .none_data {padding-top:130px;}
-.group_billing.list_empty .img_black {display:block;width:94px;height:94px;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/img_black_180509.png) 0 0 no-repeat;background-position:-340px -320px;}
-.delete_layer {margin-top:-155px;}
-.delete_layer .inner_layer {padding:5px;width:923px; height:304px;padding:8px;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_tooltip.gif) 0 0 repeat;box-shadow:6px 6px 7px 0 rgba(0,0,0,.15);text-align:center;}
-.delete_layer .line_layer {border:1px solid #c3c3c3;height:100%;}
-.delete_layer .tit_alert {display:block;padding-top:48px;font-size:32px;color:#010101;}
-.delete_layer .desc_alert {padding-top:16px;line-height:28px;color:#6f6f6f;font-size:18px;}
-.delete_layer .btn_black.delete_close {border:1px solid #c9c9c9;}
-.delete_layer .delete_close {display:inline-block;width:300px;margin-top:40px;font-size:20px;height:auto;}
-.delete_layer .delete_submit {display:inline-block;width:300px;margin-top:40px;font-size:20px;height:auto;}
-.delete_layer .delete_close .inner_btn {background-color:#c9c9c9;}
-.delete_layer .delete_close .inner_btn:hover {color:#fff;background-color:#b5b3b3;}
-.delete_layer .delete_submit .inner_btn {background-color:#cb413e;}
-.delete_layer .layer_foot {position:absolute;top:12px;right:12px;}
-.delete_layer .btn_close .img_black {width:22px;height:22px;margin:13px;background-position:-420px -230px;}
-.popup_layer.error_layer {top:20%;}
-.error_layer .inner_layer {padding:5px;width:483px; height:364px;padding:8px;background:url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/bg_tooltip.gif) 0 0 repeat;box-shadow:6px 6px 7px 0 rgba(0,0,0,.15);text-align:center;}
-.error_layer .line_layer {border:1px solid #c3c3c3;height:100%;}
-.error_layer .tit_alert {display:block;padding-top:46px;font-size:32px;color:#010101;}
-.error_layer .desc_alert {padding-top:13px;line-height:28px;color:#6f6f6f;font-size:18px;}
-.error_layer .desc_ask {padding-top:30px;font-size:18px;}
-.error_layer .desc_ask a {color:#337AB7;font-weight:bold;text-decoration:underline;cursor:pointer;}
-.error_layer .btn_black.delete_close {border:1px solid #c9c9c9;}
-.error_layer .delete_submit {display:block;width:300px;margin-top:37px;font-size:20px;height:auto;}
-.error_layer .delete_close .inner_btn {background-color:#c9c9c9;}
-.error_layer .delete_close .inner_btn:hover {color:#fff;background-color:#b5b3b3;}
-.error_layer .delete_submit .inner_btn {background-color:#cb413e;}
-.error_layer .layer_foot {position:absolute;top:12px;right:12px;}
-.error_layer .btn_close .img_black {width:22px;height:22px;margin:13px;background-position:-420px -230px;}
-
-
 /*	withdraw list */
 .group_withdraw {overflow:visible; padding:17px 0 15px;}
 .group_withdraw .list_view {display:table;width:100%;table-layout:fixed;}
@@ -1941,7 +1378,7 @@ a.pp_hiperlink {text-decoration: underline;}
 .slide_funny .list_slide:after{display:block;clear:both;content:''}
 .slide_funny .list_slide li{float:left;padding:20px 10px;border-radius:6px}
 .slide_funny .link_slide{display:block;overflow:hidden;position:relative;width:360px;border-radius:6px;box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2)}
-.slide_funny .img_g{display:block;-webkit-transition:transform 0.2s ease;-moz-transition:transform 0.2s ease;transition:transform 0.2s ease;-webkit-transform-origin:50% 50%;-moz-transform-origin:50% 50%;transform-origin:50% 50%}/* 2019-06-17-v2 추가 */
+.slide_funny .img_g{display:block;-webkit-transition:transform 0.2s ease;-moz-transition:transform 0.2s ease;transition:transform 0.2s ease;-webkit-transform-origin:50% 50%;-moz-transform-origin:50% 50%;transform-origin:50% 50%;}/* 2019-06-17-v2 추가 */
 .slide_funny .link_slide:hover .img_g{-webkit-transform:scale(1.08);-moz-transform:scale(1.08);transform:scale(1.08)}/* 2019-06-17-v2 추가 */
 .slide_funny .tag_play{display:block;position:absolute;left:10px;bottom:10px;min-width:68px;height:34px;font-size:12px;line-height:36px;padding:0 13px;border-radius:6px;background-color:rgba(0,0,0,0.8);color:#fff;box-sizing:border-box}
 .slide_funny .tag_play .ico_play{position:static;width:9px;height:10px;margin:12px 7px 0 0;background-position:-20px 0}
@@ -1999,32 +1436,3 @@ a.pp_hiperlink {text-decoration: underline;}
 .detail_guideline h2,.detail_guideline h1{color:#212121;font-family:"Marcellus",sans-serif;}
 .detail_guideline_inner {padding-left:20px;}
 .prm_buy .bnr_on .box_count {top:172px;}
-
-/* partner coupon */
-.partner_coupon_table {overflow:hidden; margin:21px 0 79px; border-top: 2px solid black; border-bottom: 2px solid #d2d2d2;}
-.tbl_comm{width:100%;table-layout:fixed;border-collapse:collapse}
-.partner_coupon_td {padding: 10px 16px 10px 16px;}
-.partner_coupon_code_used {padding: 10px 16px 10px 16px; color:#d2d2d2;}
-/* // partner coupon */
-
-/* newsView */
-
-.black_web_top{position:fixed;bottom:10px;left:180px;max-width:1580px;width:100%;margin:0 auto;cursor:pointer;}
-.black_web_top .btn_top{position: absolute;right: 0;top: -130px;width: 50px;height: 50px;border: 1px solid #c6c5c5;background: #fff;box-sizing: border-box;}
-.ico_tryforfree {display: inline-block;overflow: hidden;width: 0; height: 0;line-height: 0;text-indent: -9999px;vertical-align: top;
-    background: url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/events/tryforfree0325/ico_black.png) no-repeat;}
-.black_web_top .ico_top {width: 23px;height: 15px;margin: 16px 0 0 12px;background-position: -180px 0;}
-
-
-/* temp bnr */
-.dimmed_carton_layer{display:none;position:fixed;top:0;bottom:0;left:0;right:0;z-index:9998;background:#000;opacity:.9;filter:alpha(opacity=90)}
-#vodCartonLayer{display:none;margin-top:0px;position:fixed;top:50%;left:50%;width:100%;transform:translate(-50%, -50%);z-index:9999;}
-#vodCartonLayer .inner_vod_layer{position:relative;background-color:unset;width:100%;max-width:1200px;margin:0 auto;}
-#vodCartonLayer .inner_vod_layer .layer_head div{margin:0px auto;width:450px;height:88px;top:10px;padding:20px 0 20px 0;}
-#vodCartonLayer .inner_vod_layer .layer_body{position:relative;width:1200px;height:678px;}
-#vodCartonLayer .inner_vod_layer .layer_body .iframe_youtube {display:block;position:absolute;top:0;left:0;width:100%;height:100%;border:0 none;}
-#vodCartonLayer .inner_vod_layer .layer_foot .ico_black {display: inline-block;overflow: hidden;width: 0;height: 0;line-height: 0;background: url(../../../akamai-webcdn.kgstatic.net/renewal/static/images/events/tryforfree0325/ico_black.png) no-repeat;text-indent: -9999px;vertical-align: top;}
-#vodCartonLayer .inner_vod_layer .layer_foot .btn_close {position:absolute;right:-50px;width:50px;height:50px;background-position:-240px -40px;}
-    
-    
-    
