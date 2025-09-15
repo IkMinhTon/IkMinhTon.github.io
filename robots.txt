@@ -1,3 +1,3 @@
 Sitemap: https://ikminhton.github.io/sitemap.xml
 User-agent: *
-Disallow:
+Disallow: /sitemap.xml
